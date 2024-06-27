@@ -18,7 +18,7 @@ def load_matches(file_path):
         print(f"An unexpected error occurred: {e}.")
         return []
 
-def save_matches(file_path, matches):
+def save_matches(file_path, matches): # No need to retun as we are saving JSON file
     try:
         with open(file_path, 'w') as file:
             json.dump(matches, file, indent=4)
