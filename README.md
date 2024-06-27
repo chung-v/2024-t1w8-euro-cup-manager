@@ -7,3 +7,8 @@
     - Filter and display high-scoring matches.
     - Save match data to a JSON file.
     - Error handling for user input and file operations.
+
+To make a .sh file executable, run this command:
+'''
+chmod +x run.sh
+'''
